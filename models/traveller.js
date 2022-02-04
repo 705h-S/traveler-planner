@@ -19,13 +19,13 @@ Traveller.init(
             unique: true,
             validate: {
             isEmail: true,
+            },
         },
         sequelize,
         timestamps: false,
         freezeTableName: true,
         underscored: true,
-        modelName: 'Location',
-     },
+        modelName: 'Traveller',
     },
 );
 
