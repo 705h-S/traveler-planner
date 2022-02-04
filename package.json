@@ -1,0 +1,27 @@
+{
+  "name": "traveler-planner",
+  "version": "1.0.0",
+  "description": "mini-project, you will work with a group to build an API using Node.js, Express.js, MySQL, and Sequelize, and you will deploy it to Heroku.",
+  "main": "server.js",
+  "scripts": {
+    "test": "run enlist",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/705h-S/traveler-planner.git"
+  },
+  "author": "Joshua Meza & Laura Gupta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/705h-S/traveler-planner/issues"
+  },
+  "homepage": "https://github.com/705h-S/traveler-planner#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "eslint": "^8.8.0",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.15.0"
+  }
+}
